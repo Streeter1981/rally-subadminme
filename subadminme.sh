@@ -10,8 +10,8 @@ fi
 
 SUBSCRIPTION_ID=$1
 
-MY_USERNAME="js_admin@rallydev.com"
-INSTALL_DIR="/Users/strjo05/Documents/rally-subadminme-master"
+MY_USERNAME="username@company.com"
+INSTALL_DIR="/Users/<user>/Documents/rally-subadminme-master"
 
 PYTHON="/usr/bin/python"
 
