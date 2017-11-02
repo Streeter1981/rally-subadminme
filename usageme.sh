@@ -11,8 +11,8 @@ fi
 
 SUBSCRIPTION_ID=$1
 
-MY_USERNAME="js_admin@rallydev.com"
-HOME_DIR="/Users/strjo05"
+MY_USERNAME="username@company.com"
+HOME_DIR="/Users/<user>"
 INSTALL_DIR="${HOME_DIR}/Documents/rally-subadminme-master"
 OUTPUT_DIR="${HOME_DIR}/Desktop"
 
