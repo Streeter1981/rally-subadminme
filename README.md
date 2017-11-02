@@ -10,24 +10,22 @@ How to Use:
 3. In each step of the following section, always replace mydomainusername with your actual Mac login ID.
 3. Move the the ZIP file to: /Users/mydomainusername/Documents/
 4. Double click the ZIP file to extract it. This will create the following folder: /Users/mydomainusername/Documents/rally-subadminme-master
-5. Use your favorite text editor to update the MY_USERNAME, MY_PASSWORD, and INSTALL_DIR and/or HOME_DIR variables,
+5. Use your favorite text editor to update the MY_USERNAME and INSTALL_DIR and/or HOME_DIR variables,
 located in the `subadminme.sh` and `usageme.sh` scripts (these are your super-user credentials):
 
 ```
 subadminme.sh:
 MY_USERNAME="user@company.com"
-MY_PASSWORD="top\$3cr3t"
 INSTALL_DIR="/Users/mydomainusername/Documents/rally-subadminme-master"
 ```
 
 ```
 usageme.sh:
 MY_USERNAME="user@company.com"
-MY_PASSWORD="top\$3cr3t"
 HOME_DIR="/Users/mydomainusername/Documents/rally-subadminme-master"
 ```
 
-6. Note that we had to escape the special character $ by using \$ in the password, since this has a special meaning in the bash shell. Take care to escape any instance of $ in your password.
+
 7. Add an alias for subadminme:
 8. Open your mac terminal window.
 9. nano ~/.bash_profile

@@ -1,4 +1,7 @@
 #!/bin/bash
+read -s -p "Password for $MY_USERNAME: " MY_PASSWORD
+
+
 
 if [ -z "$1" ]; then
     echo "Usage: subadminme.sh 209"
@@ -7,9 +10,8 @@ fi
 
 SUBSCRIPTION_ID=$1
 
-MY_USERNAME="user@company.com"
-MY_PASSWORD="top\$3cr3t"
-INSTALL_DIR="/Users/mydomainusername/Documents/rally-subadminme-master"
+MY_USERNAME="js_admin@rallydev.com"
+INSTALL_DIR="/Users/strjo05/Documents/rally-subadminme-master"
 
 PYTHON="/usr/bin/python"
 

@@ -1,4 +1,7 @@
 #!/bin/bash
+read -s -p "Password for $MY_USERNAME: " MY_PASSWORD
+
+
 
 if [ $# -ne 2 ]; then
     echo "Usage: usageme.sh 209 30"
@@ -8,9 +11,8 @@ fi
 
 SUBSCRIPTION_ID=$1
 
-MY_USERNAME="user@company.com"
-MY_PASSWORD="top\$3cr\$t"
-HOME_DIR="/Users/mydomainusername"
+MY_USERNAME="js_admin@rallydev.com"
+HOME_DIR="/Users/strjo05"
 INSTALL_DIR="${HOME_DIR}/Documents/rally-subadminme-master"
 OUTPUT_DIR="${HOME_DIR}/Desktop"
 
